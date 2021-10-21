@@ -1,5 +1,8 @@
-height = 5
-base = 12
-def area_of_triangle(height):
-    return (height * base) / 2 
-print(area_of_triangle(height))
+a = 4
+b = 6
+c = 8
+
+s = (a + b + c) / 2
+
+area = (s * (s-a) * (s-b)* (s-c)) ** 0.5
+print(area)

@@ -1,6 +1,8 @@
-celsius = 22
+temp1 = 85
+temp2 = 25
 
-def fahrenheit(celcius):
-    return (celsius * 9/5) + 32
+celsius = (temp1 - 32) * 5/9
+print(temp1)
 
-print(fahrenheit(celsius))
+fahrenheit = (temp2 * 9/5) + 32
+print(temp2)

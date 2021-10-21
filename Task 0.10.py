@@ -1,5 +1,5 @@
-str1 = input("Enter word 1: ")
-str2 = input("Enter word 2: ")
+str1 = "house"
+str2 = "computers"
 
 result = []
 if (len(str1) < len(str2)):

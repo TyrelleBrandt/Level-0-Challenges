@@ -1,4 +1,4 @@
-name = input('Enter a word: ')
+name = "Umuzi"
 
 word = name.lower()
 print(word)

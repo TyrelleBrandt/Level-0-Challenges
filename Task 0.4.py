@@ -1,4 +1,4 @@
-number = int(input())
+number = 4
 i = number % 2
 
 if (i) == 0:

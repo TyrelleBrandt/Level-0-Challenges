@@ -1,4 +1,4 @@
-celsius = int(input("celsius: "))
+celsius = 22
 
 def fahrenheit(celcius):
     return (celsius * 9/5) + 32

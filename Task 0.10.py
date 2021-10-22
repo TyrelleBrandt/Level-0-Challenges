@@ -1,7 +1,7 @@
-str1 = "house"
-str2 = "computers"
+str1 = input()
+str2 = input()
 
-def my_function():
+def commonletters():
     result = []
     if (len(str1) < len(str2)):
         for a in str1:
@@ -12,4 +12,4 @@ def my_function():
             if(a in str1):
                 result.append(a)
     print('Common letters:', *result)
-my_function()
+commonletters()

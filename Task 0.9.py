@@ -10,6 +10,6 @@ def vowelsinword():
             if x in vowels:
              list2.append(x)
     vowes = ', '.join(list2)
+    return "Vowels: "+ vowes
 
-    print("Vowels: "+ vowes)
-vowelsinword()
+print(vowelsinword())

@@ -1,8 +1,5 @@
-vowels = ('aeiou')
-
-word = str.lower(input())
-
-def vowelsinword():
+def vowelsinword(word):
+    vowels = ('aeiou')
     list1 = list(word)
     list2 = []
     for x in list1:
@@ -12,4 +9,4 @@ def vowelsinword():
     vowes = ', '.join(list2)
     return "Vowels: "+ vowes
 
-print(vowelsinword())
+print(vowelsinword("Umuzi"))

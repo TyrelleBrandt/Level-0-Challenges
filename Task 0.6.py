@@ -1,16 +1,9 @@
-a = 10
-d = 33
-b = 20
-c = 25
-
-def maximum(a, d, b, c):
-    if (a >= b) and (a >= c) and (a >= d):
+def maximum(a, b, c):
+    if (a >= b) and (a >= c):
         largest = a
-    elif (b >= a) and (b >= c) and (b >= d):
+    elif (b >= a) and (b >= c):
         largest = b
-    elif (c >= a) and (c >= b) and (c >= d):
+    elif (c >= a) and (c >= b):
         largest = c
-    else:
-        largest = d
     return largest
-print(maximum(a, d, b, c))
+print(maximum(10, 20, 25))

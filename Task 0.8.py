@@ -3,11 +3,13 @@ def hours_and_minutes(number):
     hours = str(number // 60)
     minutes = str(number % 60)
     if hours == a and minutes == a:
-        print(hours, "hour" + ', ' + minutes, "minute")
+        print(hours, "hour" + ", " + minutes, "minute")
     elif hours > a and minutes > a:
-        print(hours, "hours" + ', ' + minutes, "minutes")
+        print(hours, "hours" + ", " + minutes, "minutes")
     elif hours == a and minutes > a:
-        print(hours, "hour" + ', ' + minutes, "minutes")
+        print(hours, "hour" + ", " + minutes, "minutes")
     elif hours > a and minutes == a:
-        print(hours, "hours" + ', ' + minutes, "minute")
-print(hours_and_minutes(71))
+        print(hours, "hours" + ", " + minutes, "minute")
+
+
+hours_and_minutes(71)

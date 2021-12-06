@@ -6,6 +6,6 @@ b = (1 + 1 * 2) / 2
 
 print(x)
 print(y)
-print(z) 
+print(z)
 print(a)
 print(b)

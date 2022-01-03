@@ -1,7 +1,7 @@
 x = 1
 y = 0
 
-print(x)  # this calculates the sum of x and y
+print(x) 
 print(y)
 
 x = x + 3

@@ -1,5 +1,5 @@
 def vowels_in_a_word(word):
-    vowels = "aeiou"
+    vowels = "AEIOUaeiou"
     list1 = list(word)
     list2 = []
     for x in list1:

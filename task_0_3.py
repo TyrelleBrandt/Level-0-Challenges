@@ -1,5 +1,5 @@
-def greeting(name):
+def hello_function(name):
     print("Hello " + name + "!")
 
 
-greeting("Tshepo")
+hello_function("Tshepo")

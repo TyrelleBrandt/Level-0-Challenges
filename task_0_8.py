@@ -3,7 +3,7 @@ def hours_and_minutes(number):
     hours = str(number // 60)
     minutes = str(number % 60)
     if hours == range and minutes == range:
-        print(f"{hours} hour, {minutes} minute")
+        print(f"{hours} hours, {minutes} minutes")
     elif hours > range and minutes > range:
         print(f"{hours} hours, {minutes} minutes")
     elif hours == range and minutes > range:
